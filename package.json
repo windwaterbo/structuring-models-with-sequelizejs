@@ -1,0 +1,24 @@
+{
+  "name": "structuring-models-with-mongoose",
+  "version": "1.0.0",
+  "description": "practice for structuring models with mongoose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=* NODE_ENV=development node /example/simpleQuery.js --harmony-spreadcalls",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:windwaterbo/structuring-models-with-sequelizejs.git"
+  },
+  "keywords": [
+    "mysql",
+    "sequelize.js",
+    "orm",
+    "model",
+    "node.js"
+  ],
+  "author": "Macy Kung",
+  "license": "ISC",
+  "homepage": ""
+}

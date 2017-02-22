@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "production": {
+    "database": "",
+    "dialect": "mysql",
+    "replication": {
+      "read": [{
+          "host": "",
+          "username": "",
+          "password": ""
+        },
+        {
+          "host": "",
+          "username": "",
+          "password": ""
+        },
+        {
+          "host": "",
+          "username": "",
+          "password": ""
+        }
+      ],
+      "write": {
+        "host": "",
+        "username": "",
+        "password": ""
+      }
+    }
+  }
+}
