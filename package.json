@@ -20,5 +20,11 @@
   ],
   "author": "Macy Kung",
   "license": "ISC",
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "rootpath": "^0.1.2",
+    "sequelize": "^3.30.2",
+    "sequelize-cli": "^2.5.1"
+  }
 }
