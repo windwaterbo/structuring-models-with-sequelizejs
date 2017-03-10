@@ -7,41 +7,24 @@ It is practice for structuring models with sequelizejs.
 
 Create your project and make the structuring-model-with-squelizejs as your service of db.
 
-Install dependencies modules, **[sequelize](http://docs.sequelizejs.com/en/v3/)**. If you have installed it, you can't do the step.
+It has a sample at `/example`.
 
 ```bash
-~/yourProject : npm install sequelize
+~/structuring-models-with-sequelizejs/example > npm install
 ```
 
-- Setting config in your project that is db connection data. 
-  - You will create a folder, **config**.
-  - create a json file, **dbConfig.json**.
+1. new a db
+2. set your connection info of db at config/config.json.
+3. 
 
 ```bash
-~/yourProject : mkdir config/dbConfig.json 
+~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed:all
 ```
 
-The setting content has specific format in **dbConfig.json**. It is a nested joson.
+4. 
 
-The One level have object key set, development, production, test, etc. It is your NODE_ENV at your process for your 
-decision. You can customize it.
-
-The two level have key set in the one level object. The key set are username, password, database, host, dialect, logging.
-
-```json
-{
-  "development":{
-    "username":"",
-    "password":"",
-    "database":"",
-    "host":"",
-    "dialect":"",
-    "logging":"",
-  },
-  "production":{
-    ...
-  },
-  ...
-  ...
-}
+```bash
+node simpleQuery.js
 ```
+
+
