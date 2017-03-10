@@ -32,6 +32,9 @@ module.exports = exports = function (config) {
   db.sequelize = sequelize;
   db.Sequelize = Sequelize;
 
+  // Sync all defined models to the DB.  
+  // If force is true, each DAO will do DROP TABLE IF EXISTS ..., before it tries to create its own table
+  // Match a regex against the database name before syncing, a safety check for cases where force: true is used in tests but not live code
   sequelize.sync(/**{ force: true, match: /Dev/ }*/);
   return db;
 };
