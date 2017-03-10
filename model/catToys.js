@@ -6,10 +6,6 @@ module.exports = function(sequelize, DataTypes) {
       autoIncrement: true,
       primaryKey: true,
       type: DataTypes.INTEGER,
-    },
-    name: {
-      allowNull: false,
-      type: DataTypes.STRING,
     }
   }, {
     classMethods: {

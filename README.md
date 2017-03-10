@@ -15,10 +15,14 @@ It has a sample at `/example`.
 
 1. new a db
 2. set your connection info of db at config/config.json.
-3. 
+3. seeders
 
 ```bash
-~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed:all
+~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed seedToy.js
+~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed seedCat.js
+~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed seedOwner.js
+~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed seedCatInfo.js
+~/structuring-models-with-sequelizejs/example > node_modules/.bin/sequelize db:seed seedCatToys.js
 ```
 
 4. 
