@@ -1,7 +1,7 @@
 {
-  "name": "structuring-models-with-mongoose",
+  "name": "structuring-models-with-sequelizejs",
   "version": "1.0.0",
-  "description": "practice for structuring models with mongoose",
+  "description": "practice for structuring models with sequelizejs",
   "main": "index.js",
   "scripts": {
     "dev": "DEBUG=* NODE_ENV=development node /example/simpleQuery.js --harmony-spreadcalls",
